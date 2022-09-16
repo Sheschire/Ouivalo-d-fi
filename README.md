@@ -2,6 +2,8 @@
 
 EDIT: 16.09.2022
 
+cd react-form to see the project !
+
 Had to read hell of React documentation 'cause I knew nothing about it yet.
 
 The form is done, it updates my data which is ready to fly to Ouivalo's API when submit. 
