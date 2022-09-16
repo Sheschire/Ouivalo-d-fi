@@ -18,8 +18,11 @@ RESSOURCES:
 React Basics {
 
 https://www.upbeatcode.com/react/react-naming-conventions/
+
 https://fr.reactjs.org/docs/create-a-new-react-app.html
+
 https://reactjs.org/tutorial/tutorial.html
+
 https://fr.reactjs.org/docs/forms.html
 
 }
@@ -33,6 +36,7 @@ https://www.freecodecamp.org/news/how-to-use-axios-with-react/
 CORS / preflight request issue {
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
 http://oskarhane.com/avoid-cors-with-nginx-proxy_pass/
 
 }
