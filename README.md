@@ -10,6 +10,8 @@ I currently have a lot of troubles with resolving CORS issue, therefore I can't 
 My main idea is to set up an nginx in my upcoming Docker container so it can redirect my HTTP request.
 So my next step will be to re-read Docker documentation to remember about all the compose stuff.
 
+
+
 RESSOURCES: 
 
 React Basics {
