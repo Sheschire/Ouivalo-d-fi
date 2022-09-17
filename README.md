@@ -18,9 +18,13 @@ Moreover, after reading the Issues on Ouivalo's repo, it seems that it may not b
 EDIT 17.09.2022
 
 Can't figure why I keep receive a preflight request error. 
+
 I tried to custom Axios headers when I use a POST request
+
 I studied how to allow my HTTP request to be redirected server-side but didn't find anything
+
 I made sure I sent a application/json as the body.
+
 
 I'll work on my Docker container while waiting for help.
 
