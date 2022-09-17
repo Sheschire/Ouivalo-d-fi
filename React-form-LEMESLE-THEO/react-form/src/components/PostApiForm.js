@@ -3,15 +3,18 @@ import Axios from 'axios';
 
 
 function PostApiForm() {
-    const url = "https://script.google.com/macros/s/AKfycby-TJmFFUFTfiNUbMoSIZx8LVtiskQ-bUt4xO6hmrU0XQpJS8IPUBow/exec"
+    const url = "https://script.google.com/macros/s/AKfycby-TJmFFUFTfiNUbMoSIZx8LVtiskQ-bUt4xO6hmrU0XQpJS8IPUBow/exec";
+    const headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'JWT fefege...'
+    }
     const [data, setData] = useState({
         cle: "CLE-TEST-IOT",
         id: "",
         date: "",
         urlRelais: "",
         message: ""
-    })
-
+    });
     function submit(e){
         e.preventDefault();
         Axios.post(url,{
@@ -22,6 +25,8 @@ function PostApiForm() {
                 urlRelais: data.urlRelais,
                 message: data.message
             }
+        }, {
+            headers: headers
         })
         .then(res=>{
             console.log(res.data)
