@@ -3,7 +3,7 @@
 ## Run the project
 Run ```./run.sh``` to build and run the image and the container.
 
-! [Screenshot](formScreen.png)
+<img src="formScreen.png" width=100% height=75%>
 
 ## EDIT: 20.09.2022
 **Currently stuck with 2 issues :**
