@@ -3,6 +3,8 @@
 ## Run the project
 Run ```./run.sh``` to build and run the image and the container.
 
+! [Screenshot](formScreen.png)
+
 ## EDIT: 20.09.2022
 **Currently stuck with 2 issues :**
 
