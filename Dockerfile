@@ -13,12 +13,11 @@ RUN npm cache clean -f
 RUN npm install -g n
 RUN n stable
 
-# HELLO OUIVALO
-RUN echo -e "\x1b[1;32m------------------------------\n\nHello Ouivalo ! \nThanks \
-for evaluating this project \!\n\n------------------------------\e[0m"
-
 # COPY WORK FOLDER IN CONTAINER
 COPY React-form-LEMESLE-THEO .
 
-# LAUNCH THE PROJECT
+# SET UP WORKDIR
 WORKDIR react-form
+
+# WELCOME MESSAGE
+CMD bash welcomeMessage.sh

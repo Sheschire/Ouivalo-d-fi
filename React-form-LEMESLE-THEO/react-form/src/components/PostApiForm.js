@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Axios from 'axios';
+import './Form.css';
 
 
 function PostApiForm() {
@@ -41,7 +42,7 @@ function PostApiForm() {
     }
     return (
         <div>
-            <form onSubmit={(e)=> submit(e)}>
+            <form class="s-mp flex vertical m-auto" onSubmit={(e)=> submit(e)}>
                 <input onChange={(e)=>handle(e)} id="id" value={data.id} placeholder="id" type="text"></input>
                 <input onChange={(e)=>handle(e)} id="date" value={data.date} placeholder="date" type="date"></input>
                 <input onChange={(e)=>handle(e)} id="urlRelais" value={data.urlRelais} placeholder="urlRelais" type="text"></input>
